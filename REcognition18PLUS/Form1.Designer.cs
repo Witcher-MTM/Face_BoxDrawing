@@ -30,7 +30,7 @@
         {
             this.img_add_btn = new System.Windows.Forms.Button();
             this.clearpicture_btn = new System.Windows.Forms.Button();
-            this.WTF = new System.Windows.Forms.Button();
+            this.label_check_btn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -47,7 +47,7 @@
             // 
             // clearpicture_btn
             // 
-            this.clearpicture_btn.Location = new System.Drawing.Point(12, 173);
+            this.clearpicture_btn.Location = new System.Drawing.Point(12, 101);
             this.clearpicture_btn.Name = "clearpicture_btn";
             this.clearpicture_btn.Size = new System.Drawing.Size(75, 90);
             this.clearpicture_btn.TabIndex = 1;
@@ -55,14 +55,15 @@
             this.clearpicture_btn.UseVisualStyleBackColor = true;
             this.clearpicture_btn.Click += new System.EventHandler(this.clearpicture_btn_Click);
             // 
-            // WTF
+            // label_check_btn
             // 
-            this.WTF.Location = new System.Drawing.Point(12, 357);
-            this.WTF.Name = "WTF";
-            this.WTF.Size = new System.Drawing.Size(75, 81);
-            this.WTF.TabIndex = 2;
-            this.WTF.Text = "button3";
-            this.WTF.UseVisualStyleBackColor = true;
+            this.label_check_btn.Location = new System.Drawing.Point(12, 197);
+            this.label_check_btn.Name = "label_check_btn";
+            this.label_check_btn.Size = new System.Drawing.Size(75, 81);
+            this.label_check_btn.TabIndex = 2;
+            this.label_check_btn.Text = "CheckLabels";
+            this.label_check_btn.UseVisualStyleBackColor = true;
+            this.label_check_btn.Click += new System.EventHandler(this.label_check_btn_Click);
             // 
             // pictureBox1
             // 
@@ -78,7 +79,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.WTF);
+            this.Controls.Add(this.label_check_btn);
             this.Controls.Add(this.clearpicture_btn);
             this.Controls.Add(this.img_add_btn);
             this.Name = "Form1";
@@ -92,8 +93,8 @@
 
         private System.Windows.Forms.Button img_add_btn;
         private System.Windows.Forms.Button clearpicture_btn;
-        private System.Windows.Forms.Button WTF;
         public System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button label_check_btn;
     }
 }
 
